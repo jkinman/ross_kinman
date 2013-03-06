@@ -3,11 +3,11 @@
 }
 
 body{
-	background: #DDD url('images/paperBG.jpg') repeat scroll;
+	background: #DDD url('paperBG.jpg') repeat scroll;
 	margin: 0;
 }
 
-#page{
+#container{
 	position: relative;
 	width: 900px;
 	margin: auto;
@@ -16,7 +16,7 @@ body{
 
 #header{
 /*	background: none url('images/torn_paper.png') repeat fixed;*/
-	background: url('images/torn_paper.png') no-repeat scroll;
+	background: url('torn_paper.png') no-repeat scroll;
 	width: 900px;
 	height: 153px;
 	margin: 0;
