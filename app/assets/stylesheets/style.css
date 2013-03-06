@@ -1,0 +1,94 @@
+*{
+	font-family: arial;
+}
+
+body{
+	background: #DDD url('images/paperBG.jpg') repeat scroll;
+	margin: 0;
+}
+
+#page{
+	position: relative;
+	width: 900px;
+	margin: auto;
+/*	text-align: center;*/
+}
+
+#header{
+/*	background: none url('images/torn_paper.png') repeat fixed;*/
+	background: url('images/torn_paper.png') no-repeat scroll;
+	width: 900px;
+	height: 153px;
+	margin: 0;
+	padding: 10px;
+}
+
+#navigation {
+}
+
+#navigation h2 {
+  display: none;
+}
+
+#breadcrumb{
+	display:none;
+}
+
+ul#main-menu {
+}
+
+ul#main-menu {
+  text-decoration: none;
+  padding-top: 5px;
+	position: absolute;
+	top: 100px;
+	left: 400px;
+}
+ul#main-menu li a {
+  text-decoration: none;
+  padding-right: 10px;
+}
+ul#secondary-menu {
+  background-color: #333;
+  height: 25px;
+}
+ul#secondary-menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 10px;
+  height: 25px;
+  border-right: 1px solid #fff;
+}
+ul#secondary-menu a:hover {
+  color: #ff0000;
+}
+
+
+/* ///////////////////////////////////////art node node-3*/
+
+.node-art{
+	width: 200px;
+	height: 200px;
+	/* This adds the border */
+	padding:8px;
+	border:solid;
+	border-color: #666 #666 #666 #666;
+	border-width: 1px 1px 1px 1px;
+	background-color:white;
+	
+}
+
+.node-art h2{
+	position: absolute;
+	background-color: black;
+	width: 200px;
+	font-size: 1em;
+}
+
+#node-3 h2{
+	
+}
+
+#node-3 ul.links.inline{
+	display: none;
+}
