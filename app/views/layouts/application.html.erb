@@ -11,8 +11,15 @@
 	<p class="alert"><%= alert %></p>
 	<div id="container">
 		<div id="header">
-			<p>Home</p>
+			<%= link_to 'Home', home_index_path %>
 			<p>Gallery</p>
+			<% if user_signed_in? %>
+				signed in as <%= current_user.email %>
+				<%= link_to "Logout", destroy_user_session_path %>
+			<% else %>
+				<%= link_to( "Login", new_user_session_path )%>
+				<%= link_to( "Get account", new_user_registration_path )%>
+			<% end %>
 			<%= image_tag( "RKLogo.png" ) %>
 		</div>
 		
